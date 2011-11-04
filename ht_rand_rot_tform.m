@@ -1,4 +1,4 @@
-function tform = rand_rotation_tform(scale)
+function tform = ht_rand_rot_tform(scale)
 	% Make a random 4x4 transform with a small amount of rotation
 	if nargin < 1,
 		scale = 0.1;

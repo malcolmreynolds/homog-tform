@@ -1,4 +1,4 @@
-function pose_params = tform_to_6dof(tform)
+function pose_params = ht_tform_to_6dof(tform)
 	% Convert a 4x4 homogeneous transform representing some 3D pose into a 6 element vector.
 	% Vector is concatenation translation (3D cartesians) , and rotation in axis/angle format
 	

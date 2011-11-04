@@ -1,4 +1,4 @@
-function diff = transform_diff(tform_1, tform_2)
+function diff = ht_tform_diff(tform_1, tform_2)
 	% Given two transforms tform_1 and tform_2, we want to see how different they are
 	[r1 t1] = decompose(tform_1);
 	[r2 t2] = decompose(tform_2);

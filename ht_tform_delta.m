@@ -1,4 +1,4 @@
-function tform = transform_delta(frame_tform, cam)
+function tform = ht_tform_delta(frame_tform, cam)
 	% Assume the frame umdergoes some transform (which we get from SfM)
 	% What is the relative change in coordinates ('delta') for this camera?
 	% NB the camera we are talking about is not necessarily at (0,0,0) in the frame
