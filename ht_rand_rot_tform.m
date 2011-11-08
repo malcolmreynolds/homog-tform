@@ -4,5 +4,5 @@ function tform = ht_rand_rot_tform(scale)
 		scale = 0.1;
 	end
 
-	tform = make_transform(rodrigues(scale * randn(1,3)), zeros(3,1));
+	tform = [rodrigues(scale * randn(1,3)), zeros(3,1); 0 0 0 1];
 end

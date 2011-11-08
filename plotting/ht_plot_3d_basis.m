@@ -7,7 +7,7 @@ function ht_plot_3d_basis(tform, s, label)
 	    s = 0.5;
 	end
 	if nargin < 1,
-		rot = eye(3);
+		tform = ht_identity();
 	end
 	
 	axes_pts = [0 s 0 0;
