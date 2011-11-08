@@ -5,3 +5,4 @@ function pose_params = ht_tform_to_6dof(tform)
 	t = tform(1:3,4);
 	r = rodrigues(tform(1:3,1:3));
 	pose_params = [t;r];
+end
