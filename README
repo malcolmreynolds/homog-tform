@@ -1,0 +1,3 @@
+Just some simple functions to manipulate 4x4 Homogeneous transforms
+for messing around with 3D data. We're assuming your data is in
+3xn format. Not going to change the world, but useful anyway.
